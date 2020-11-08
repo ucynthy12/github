@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Big+Shoulders+Inline+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap');
+.repo{
+    margin-bottom: 10px;
+}
+.fa-circle{
+    color:blue;
+}
+#name{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color:rgb(255, 153, 51);
+
+}
+#language{
+    font-size:12px;
+}
+.card{
+    border-right:none;
+    border-left: none;
+    /* border-color: blue; */
+}
+#description{
+    font-family: 'Big Shoulders Inline Display', cursive;
+    font-size:18px;
+}
+#url{
+    color:black;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
