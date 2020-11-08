@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap');
+form{
+    margin:30px;
+}
+/* input#search{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    border-color:white;
+} */
+input#search::placeholder{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+   
+   }
