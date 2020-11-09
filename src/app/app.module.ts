@@ -10,8 +10,7 @@ import { GitUserDirective } from './git-user.directive';
 import { GitReposPipe } from './git-repos.pipe';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { NgProgressModule } from '@ngx-progressbar/core';
-import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
+
 import { SearchFORMComponent } from './search-form/search-form.component';
 
 
@@ -29,9 +28,8 @@ import { SearchFORMComponent } from './search-form/search-form.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule ,
-    NgProgressModule.forRoot() ,
-    NgProgressHttpClientModule 
+    HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
